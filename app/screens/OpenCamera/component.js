@@ -1,4 +1,4 @@
-// import React, { Component } from 'react';
+
 
 import React from 'react';
 import {
@@ -30,7 +30,6 @@ export default class Component extends React.Component {
   _onRefresh = async () => {
     this.setState({ refreshing: true });
     this.updateName()
-    // await this._getIndihomeStatus();
   };
   componentDidUpdate= async ()=>{
   }

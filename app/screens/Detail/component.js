@@ -1,4 +1,4 @@
-// import React, { Component } from 'react';
+
 
 import React, { useEffect, useState } from 'react';
 import { ActivityIndicator,FlatList, Image, ScrollView, Text, View } from "react-native";

@@ -1,4 +1,4 @@
-// import React, { Component } from 'react';
+
 
 import React from 'react';
 import {
@@ -29,10 +29,7 @@ export default class Component extends React.Component {
  onSave = async () => {
   const { name } = this.state;
   await AsyncStorage.setItem('USER',name);
-  // this.props.navigation.state.params.OpenCamera.setState({'name2': name});
   this.props.navigation.goBack()
-  // this.props.navigation.push('OpenCamera')
-
  }
   
   render() {
